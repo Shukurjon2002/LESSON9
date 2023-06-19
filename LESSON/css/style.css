@@ -1,0 +1,23 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.box {
+   position: relative;
+   /* position: fixed; */
+   left: 50px;
+   top: 50px;
+   width: 500px;
+   height: 200px;
+   background-color: red;
+}
+
+.text {
+   position:relative;
+}
+
+/* .text {
+   position: relative;
+} */

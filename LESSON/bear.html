@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>BEAR</title>
+      <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+         }
+         body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 800px;
+         }
+         .bear {
+            position: relative;
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            background-color: brown;
+         }
+         .ear {
+            position: absolute;
+            top: 0;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: black;
+         }
+         .ear-left {
+            left: 0;
+         }
+
+         .ear-right {
+            right: 0;
+         }
+         .eye {
+            position: absolute;
+            top: 150px;
+            width: 150px;
+            height: 100px;
+            background-color: violet;
+            border-radius: 90%;
+         }
+         .eye-left {
+            left: 80px;
+         }
+         .eye-right {
+            right: 80px;
+         }
+         .mouth {
+            position: absolute;
+            width: 200px;
+            height: 10px;
+            background-color: aquamarine;
+            bottom: 80px;
+            margin-left: 150px;
+            border-radius: 50%;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="bear">
+         <div class="ear ear-left"></div>
+         <div class="ear ear-right"></div>
+         <div class="eye eye-left"></div>
+         <div class="eye eye-right"></div>
+         <div class="mouth"></div>
+      </div>
+   </body>
+</html>

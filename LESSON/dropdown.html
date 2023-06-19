@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>DROPDOWN</title>
+      <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+         }
+         
+         .dropdown {
+            margin-left: 100px;
+            position: relative;
+         }
+         .dropdown-content {
+            position: absolute;
+            list-style-type: none;
+            background-color: red;
+            /* display: none; */
+            top: 20px;
+            opacity: 0;
+            z-index: -1;
+            transition: 3s;
+         }
+         .dropdown:hover .dropdown-content {
+            top: 100px;
+            /* display: block; */
+            opacity: 1;
+            z-index: 1;
+
+         }
+      </style>
+   </head>
+   <body>
+      <div class="dropdown">
+         <button>malumotlar</button>
+         <ul class="dropdown-content">
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+         </ul>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consequatur accusantium porro deleniti eum ipsum eveniet consequuntur cupiditate! Nihil asperiores aut quibusdam. Accusantium quo quibusdam vel vero saepe voluptas ut totam officia perspiciatis obcaecati beatae inventore recusandae consequatur modi illo consectetur, tenetur excepturi culpa architecto, sequi vitae et. Cum iste eius quaerat, distinctio quibusdam quae nostrum. Nostrum cum obcaecati incidunt id tempore esse maiores inventore vero, optio quis recusandae aperiam ea? Quis voluptatem tenetur laborum recusandae. Eum vitae consectetur repellat ipsa ad porro officiis, aspernatur laudantium illo voluptatibus, corporis cupiditate dolores non esse, neque velit quasi voluptas? Molestiae, sequi suscipit.</p>
+   </body>
+</html>
